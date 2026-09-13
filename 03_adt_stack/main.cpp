@@ -8,11 +8,11 @@
 #include "Stack.h"
 
 int main() {
-    Stack s;
-
-    s.push(10);
-    s.push(20);
-    s.push(30);
+    Stack data;
+    
+    data.push(10);
+    data.push(20);
+    data.push(30);
 
     std::cout << "Stack size: " << s.size() << std::endl;
     std::cout << "Top: " << s.top() << std::endl;
