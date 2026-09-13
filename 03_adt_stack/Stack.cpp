@@ -8,6 +8,10 @@
 
 #include "Stack.h"
 
+Stack::Stack() {
+    topIndex = -1;
+}
+
 void Stack::push(int value) {
     // TODO: add value to the top of data_ (vector has a method for this)
 }
