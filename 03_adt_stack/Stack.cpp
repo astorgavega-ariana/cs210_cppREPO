@@ -24,6 +24,11 @@ int Stack::top() const {
     // TODO: return the top element of data_
     // undefined if empty -- callers should check isEmpty() first. We'll
     // harden this kind of thing later in the course.
+    if (isEmpty() == true) {
+        return -1;// aka void? aka undefined???;
+    }
+    return data[topIndex];
+
 }
 
 bool Stack::isEmpty() const {
