@@ -31,3 +31,5 @@ especially on what I would do differently. For example, on reflection questions 
 account when doing my code. I could definitly see how helpful those like "edge" cases could be, especially in a fully fledged program so if I had more time and more thought into my code I'd defintly add that. In terms of explaining why I didn't
 have that I'd say it was because 1. I didn't really think about edge cases while coding because I was just trying to get the actual code/program to execute correctly first and 2. Although it would be very good coding practice to just have and test for, it slipped off
 my mental checklist because it wasn't necessarily listed on the assingment requirements. Nonetheless, I recgonize what I could've done to make my code even better.
+
+SIDE NOTE: For some reason, my CLION account accidently associated my github with my personal github instead of my school github and I had no idea so I'm not sure how that affects uplaoding work but as far as I know all my work is on the git I'm just not sure if I forked it properly because it used a different account this entire time.
