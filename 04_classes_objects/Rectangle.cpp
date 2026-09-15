@@ -7,6 +7,8 @@ Rectangle::Rectangle(double width, double height) {
     // like any other function. This works, but it's not the style
     // we'll write once we hit Task 06.
     // TODO: assign the width parameter to width_, and height to height_
+    width_=width;
+    height_=height;
 }
 
 double Rectangle::area() const {
@@ -16,7 +18,7 @@ double Rectangle::area() const {
 
 double Rectangle::perimeter() const {
     // TODO: return 2 * (width_ + height_)
-    return 2*width_*height_;
+    return 2* (width_*height_);
 }
 
 void Rectangle::setWidth(double width) {

@@ -14,12 +14,13 @@ int main() {
     data.push(20);
     data.push(30);
 
-    std::cout << "Stack size: " << s.size() << std::endl;
-    std::cout << "Top: " << s.top() << std::endl;
 
-    s.pop();
-    std::cout << "After pop, top: " << s.top() << std::endl;
-    std::cout << "Is empty? " << (s.isEmpty() ? "yes" : "no") << std::endl;
+    std::cout << "Stack size: " << data.size() << std::endl;
+    std::cout << "Top: " << data.peek() << std::endl;
+
+    data.pop();
+    std::cout << "After pop, top: " << data.peek() << std::endl;
+    std::cout << "Is empty? " << (data.isEmpty() ? "yes" : "no") << std::endl;
 
     return 0;
 }
